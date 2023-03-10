@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Results summary component</title>
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <!-- My CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <section class="result">
+      <h2 class="result-title">Your Result</h2>
+      <div class="result-circle">
+        <p>76</p>
+        <small>of 100</small>
+      </div>
+      <div class="result-text">
+        <h3>Great</h3>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </section>
+    <section class="summary">
+      <h2 class="summary-title">Summary</h2>
+      <section class="summary-content">
+
+        <div class="summary-content-category reaction">
+          <figure class="figure">
+            <img src="./assets/images/icon-reaction.svg" alt="reaction logo">
+            <figcaption class="description-reaction">Reaction</figcaption>
+          </figure>
+          <p><span class="number">80</span> / 100</p>
+        </div>
+        
+        <div class="summary-content-category memory">
+          <figure class="figure">
+            <img src="./assets/images/icon-memory.svg" alt="memory logo">
+            <figcaption class="description-memory">Memory</figcaption>
+          </figure>
+          <p><span class="number">92</span> / 100</p>
+        </div>
+
+        <div class="summary-content-category verbal">
+          <figure class="figure">
+            <img src="./assets/images/icon-verbal.svg" alt="verbal-logo">
+            <figcaption class="description-verbal">Verbal</figcaption>
+          </figure>
+          <p><span class="number">61</span> / 100</p>
+        </div>
+
+        <div class="summary-content-category visual">
+          <figure class="figure">
+            <img src="./assets/images/icon-visual.svg" alt="visual logo">
+            <figcaption class="description-visual">Visual</figcaption>
+          </figure>
+          <p><span class="number">72</span> / 100</p>
+        </div>
+
+        <button class="summary-content-botton">
+          Continue
+        </button>
+      </section>
+    </section>
+  </main>
+</body>
+</html>
