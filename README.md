@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - [Solution](https://github.com/RMartinezGonzalez/Results-summary-component)
-- [Live version](results-summary-component2.netlify.app)
+- [Live version](https://results-summary-component2.netlify.app/)
 
 ## My process
 
