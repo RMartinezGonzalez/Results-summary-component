@@ -1,4 +1,4 @@
-# Frontend Mentor - Product preview card component solution
+# Frontend Mentor - Results summary component solution
 
 This is a solution to the [Results summary component on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - [Solution](https://github.com/RMartinezGonzalez/Results-summary-component)
-- [Live version](https://jade-sprinkles-7fbebb.netlify.app/)
+- [Live version](results-summary-component2.netlify.app)
 
 ## My process
 
